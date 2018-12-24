@@ -15,13 +15,13 @@
  *
  * PHP version 5
  *
- * @category AlibabaCloud
+ * @category  AlibabaCloud
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group
  * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  *
- * @link https://github.com/aliyun/openapi-sdk-php-client
+ * @link      https://github.com/aliyun/openapi-sdk-php-client
  */
 
 namespace AlibabaCloud\Client\Request;
@@ -42,13 +42,13 @@ use GuzzleHttp\Exception\GuzzleException;
 /**
  * Class Request
  *
- * @package AlibabaCloud\Client\Request
+ * @package   AlibabaCloud\Client\Request
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group
  * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  *
- * @link https://github.com/aliyun/openapi-sdk-php-client
+ * @link      https://github.com/aliyun/openapi-sdk-php-client
  *
  * @method string preparationParameters($credential)
  */
@@ -294,7 +294,7 @@ abstract class Request
             if (isset($this->options['form_params'])) {
                 $this->options['form_params'] =
                     \GuzzleHttp\Psr7\parse_query(self::getPostHttpBody($this->options['form_params']));
-                if (!\is_array($this->options['form_params']) || empty($this->options['form_params'])) {
+                if (empty($this->options['form_params'])) {
                     unset($this->options['form_params']);
                 }
             }

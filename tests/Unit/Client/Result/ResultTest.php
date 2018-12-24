@@ -36,13 +36,13 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class ResultTest
  *
- * @package AlibabaCloud\Client\Tests\Unit\Result
+ * @package   AlibabaCloud\Client\Tests\Unit\Result
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group
  * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  *
- * @link https://github.com/aliyun/openapi-sdk-php-client
+ * @link      https://github.com/aliyun/openapi-sdk-php-client
  */
 class ResultTest extends TestCase
 {

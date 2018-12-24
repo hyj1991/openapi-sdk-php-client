@@ -13,7 +13,7 @@
  *
  * --------------------------------------------------------------------------
  *
- * @category AlibabaCloud
+ * @category  AlibabaCloud
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group
@@ -34,7 +34,7 @@ use AlibabaCloud\Client\Exception\ClientException;
 /**
  * Class RpcRequest
  *
- * @package AlibabaCloud\Client\Request
+ * @package   AlibabaCloud\Client\Request
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group

@@ -47,7 +47,7 @@ use AlibabaCloud\Client\Signature\SignatureInterface;
  * @copyright 2018 Alibaba Group
  * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  *
- * @link https://github.com/aliyun/aliyun-openapi-php-sdk
+ * @link      https://github.com/aliyun/aliyun-openapi-php-sdk
  * @mixin     AlibabaCloud
  */
 trait ClientManager
@@ -57,7 +57,7 @@ trait ClientManager
      *
      * @param string $clientName
      *
-     * @return array|self
+     * @return self
      * @throws ClientException
      */
     public static function get($clientName)

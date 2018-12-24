@@ -15,13 +15,13 @@
  *
  * PHP version 5
  *
- * @category AlibabaCloud
+ * @category  AlibabaCloud
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group
  * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  *
- * @link https://github.com/aliyun/openapi-sdk-php-client
+ * @link      https://github.com/aliyun/openapi-sdk-php-client
  */
 
 namespace AlibabaCloud\Client\Tests\Unit\Client\Credentials\Providers;
@@ -31,13 +31,13 @@ namespace AlibabaCloud\Client\Tests\Unit\Client\Credentials\Providers;
  *
  * @codeCoverageIgnore
  *
- * @package AlibabaCloud\Client\Tests\Unit\Client\Credentials\Providers
+ * @package   AlibabaCloud\Client\Tests\Unit\Client\Credentials\Providers
  *
  * @author    Alibaba Cloud SDK <sdk-team@alibabacloud.com>
  * @copyright 2018 Alibaba Group
  * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
  *
- * @link https://github.com/aliyun/openapi-sdk-php-client
+ * @link      https://github.com/aliyun/openapi-sdk-php-client
  */
 class VirtualRsaKeyPairCredential extends VirtualAccessKeyCredential
 {
